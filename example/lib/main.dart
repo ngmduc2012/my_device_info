@@ -127,9 +127,11 @@ class _MyAppState extends State<MyApp> {
               SizedBox(
                 height: 10,
               ),
-              TextButton(onPressed: (){
-                initPlatformState();
-              }, child: Text("Reload"))
+              TextButton(
+                  onPressed: () {
+                    initPlatformState();
+                  },
+                  child: Text("Reload"))
             ],
           ),
         ),
